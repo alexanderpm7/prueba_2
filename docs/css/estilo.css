@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  width: 70%;
+  margin: auto;
+  overflow:hidden;
+}
+header {
+	background-color:black;
+	width: 100%;
+	position: fixed;
+}
+
+nav {
+  float: left; 
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+nav ul li {
+  float: left;
+  font: oblique bold 80% cursive;
+  font-size: 20px;
+}
+nav ul li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+	background: #e98407;
+}
+
+nav li ul {
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+}
+nav li:hover ul, li:focus ul {
+    width: 10.35%;
+    background: gray;
+    z-index: 5;
+}
+nav li li:hover {
+    display: block;
+    background: #e3dc4f;
+    width: 100%;
+    font-size: 16px;
+}
+
+#mapa{
+   width:510px;
+   float:left;
+   height:425px;
+   border-radius:0 7px 7px 0;
+   margin-top:140px;
+   margin-left:700px;
+}
+
+
+body{
+
+	background-color:darkgray;
+
+}
